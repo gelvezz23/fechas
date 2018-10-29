@@ -13,7 +13,7 @@ class Dia:
     # nada por aca 
   
   def sonIguales(self, otroDia):
-    # nada por aca
+    return (a==otroDia.a) && (mes==otroDia.mes) &&(dia==otroDia.dia)
     
     
   # metodo set y get
