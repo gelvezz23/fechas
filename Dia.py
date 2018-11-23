@@ -9,8 +9,12 @@ class Dia:
     self.__mes = mes
     self.__anio = a
   
-  def esBisiesto(self):
+  def esBisiesto(a):
     # nada por aca 
+    	if año%4 == 0 and año%100 != 0 or año%400 == 0:
+		return True
+	else:
+		return False
   
   def sonIguales(self, otroDia):
     # nada por aca
